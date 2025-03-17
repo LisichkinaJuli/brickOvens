@@ -1,0 +1,128 @@
+{
+  "colors": {
+    "primary": {
+      "value": "#AC8546",
+      "type": "color",
+      "description": "Primary"
+    },
+    "base": {
+      "value": "#221915",
+      "type": "color",
+      "description": "Base"
+    },
+    "background": {
+      "base": {
+        "value": "{colors.base}",
+        "type": "color",
+        "description": "Основной цвет страниц"
+      },
+      "secondary-color": {
+        "value": "#606060",
+        "type": "color",
+        "description": "Фон второстепенной цветной ссылки"
+      }
+    }
+  },
+  "fontsWeight": {
+    "bodyRegular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "Medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    }
+  },
+  "fontFamily": {
+    "body": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    }
+  },
+  "base": {
+    "value": "16",
+    "type": "fontSizes"
+  },
+  "bodyBase": {
+    "value": "24",
+    "type": "lineHeights"
+  },
+  "Paragraphe": {
+    "value": {
+      "fontFamily": "{fontFamily.body}",
+      "fontWeight": "{fontsWeight.bodyRegular}",
+      "fontSize": "{base}",
+      "lineHeight": "{bodyBase}"
+    },
+    "type": "typography"
+  },
+  "Link": {
+    "value": {
+      "fontFamily": "{fontFamily.body}",
+      "fontWeight": "{fontsWeight.Medium}",
+      "fontSize": "{base}",
+      "lineHeight": "{bodyBase}"
+    },
+    "type": "typography"
+  },
+  "spacing": {
+    "4xs": {
+      "value": "2",
+      "type": "spacing"
+    },
+    "3xs": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "2xs": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "s": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "m": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "l": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "2xl": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "3xl": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "4xl": {
+      "value": "48",
+      "type": "spacing"
+    },
+    "5xl": {
+      "value": "72",
+      "type": "spacing"
+    },
+    "6xl": {
+      "value": "96",
+      "type": "spacing"
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "value": "4",
+      "type": "borderRadius"
+    }
+  }
+}
