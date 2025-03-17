@@ -1,0 +1,81 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --colors-primary: #ac8546; /* Primary */
+  --colors-base: #221915; /* Base */
+  --colors-background-base: #221915; /* Основной цвет страниц */
+  --colors-background-secondary-color: #606060; /* Фон второстепенной цветной ссылки */
+  --fonts-weight-body-regular: 400;
+  --fonts-weight-medium: 500;
+  --font-family-body: Inter;
+  --base: 16px;
+  --body-base: 24;
+  --paragraphe: 400 16px/24 Inter;
+  --link: 500 16px/24 Inter;
+  --spacing-4xs: 2px;
+  --spacing-3xs: 4px;
+  --spacing-2xs: 8px;
+  --spacing-xs: 8px;
+  --spacing-s: 12px;
+  --spacing-m: 16px;
+  --spacing-l: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 48px;
+  --spacing-5xl: 72px;
+  --spacing-6xl: 96px;
+  --border-radius-sm: 4px;
+  --global-colors-primary: #ac8546; /* Primary */
+  --global-colors-base: #221915; /* Base */
+  --global-colors-background-base: #221915; /* Основной цвет страниц */
+  --global-colors-background-secondary-color: #606060; /* Фон второстепенной цветной ссылки */
+  --global-fonts-weight-body-regular: 400;
+  --global-fonts-weight-medium: 500;
+  --global-font-family-body: Inter;
+  --global-base: 16px;
+  --global-body-base: 24;
+  --global-paragraphe: 400 16px/24 Inter;
+  --global-link: 500 16px/24 Inter;
+  --global-spacing-4xs: 2px;
+  --global-spacing-3xs: 4px;
+  --global-spacing-2xs: 8px;
+  --global-spacing-xs: 8px;
+  --global-spacing-s: 12px;
+  --global-spacing-m: 16px;
+  --global-spacing-l: 20px;
+  --global-spacing-xl: 24px;
+  --global-spacing-2xl: 32px;
+  --global-spacing-3xl: 40px;
+  --global-spacing-4xl: 48px;
+  --global-spacing-5xl: 72px;
+  --global-spacing-6xl: 96px;
+  --global-border-radius-sm: 4px;
+  --light-colors-primary: #ac8546; /* Primary */
+  --light-colors-base: #221915; /* Base */
+  --light-colors-background-base: #221915; /* Основной цвет страниц */
+  --light-colors-background-secondary-color: #606060; /* Фон второстепенной цветной ссылки */
+  --light-fonts-weight-body-regular: 400;
+  --light-fonts-weight-medium: 500;
+  --light-font-family-body: Inter;
+  --light-base: 16px;
+  --light-body-base: 24;
+  --light-paragraphe: 400 16px/24 Inter;
+  --light-link: 500 16px/24 Inter;
+  --light-spacing-4xs: 2px;
+  --light-spacing-3xs: 4px;
+  --light-spacing-2xs: 8px;
+  --light-spacing-xs: 8px;
+  --light-spacing-s: 12px;
+  --light-spacing-m: 16px;
+  --light-spacing-l: 20px;
+  --light-spacing-xl: 24px;
+  --light-spacing-2xl: 32px;
+  --light-spacing-3xl: 40px;
+  --light-spacing-4xl: 48px;
+  --light-spacing-5xl: 72px;
+  --light-spacing-6xl: 96px;
+  --light-border-radius-sm: 4px;
+}

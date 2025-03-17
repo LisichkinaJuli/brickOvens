@@ -1,12 +1,15 @@
-# React + Vite
+# Basic Style Dictionary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
 
-Currently, two official plugins are available:
+```bash
+npx style-dictionary build
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Otherwise, install Style Dictionary locally for this project first, `cd` into this directory and run:
 
-## Expanding the ESLint configuration
+```bash
+npm init -y && npm install style-dictionary
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+and then run the above command.
