@@ -24,3 +24,14 @@ dist-ssr
 *.sw?
 
 *storybook.log
+
+#tokens-build
+tokens/
+
+#html
+html/test.html
+html/img/pechi/
+
+#build
+build/
+

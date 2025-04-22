@@ -3,20 +3,49 @@
  */
 
 :root {
-  --colors-primary: #000000; /* Primary */
-  --colors-base: #221915; /* Base */
-  --colors-background-base: #221915; /* Основной цвет страниц */
-  --colors-background-secondary-color: #606060; /* Фон второстепенной цветной ссылки */
-  --fonts-weight-body-regular: 400;
-  --fonts-weight-medium: 500;
-  --font-family-body: Inter;
-  --base: 16px;
-  --body-base: 24;
-  --paragraphe: 400 16px/24 Inter;
-  --link: 500 16px/24 Inter;
-  --spacing-4xs: 2px;
-  --spacing-3xs: 4px;
-  --spacing-2xs: 8px;
+  --colors-base-dark: #2d2a23; /* Dark */
+  --colors-base-white: #e01414; /* Белый цвет */
+  --colors-base-tertiary: #ffffff;
+  --colors-primary-base: #d0bb9c; /* Primary */
+  --colors-primary-lighten1: #eee4d7; /* Primary */
+  --colors-primary-darken1: #a6957c; /* Primary */
+  --colors-primary-darken2: #7e715d; /* Primary */
+  --colors-primary-darken3: #584f40; /* Primary */
+  --colors-primary-darken4: #352f26; /* Primary */
+  --colors-primary-darken5: #15120d; /* Primary */
+  --colors-secondary-lighten-1: #f7ebde; /* Set description */
+  --colors-secondary-base: #e6bf86; /* Set description */
+  --colors-secondary-darken-1: #b9996b; /* Set description */
+  --colors-secondary-darken-2: #8e7551; /* Set description */
+  --colors-secondary-darken-3: #665338; /* Set description */
+  --colors-secondary-darken-4: #403321; /* Set description */
+  --colors-secondary-darken-5: #1d160c; /* Set description */
+  --colors-tertiary-lighten1: #e7ddcd;
+  --colors-tertiary-base: #c2b59f;
+  --colors-tertiary-darken1: #9a8f7d;
+  --colors-tertiary-darken2: #736b5d;
+  --colors-tertiary-darken3: #4f493f;
+  --colors-tertiary-darken4: #2d2a23;
+  --colors-tertiary-darken5: #13110d;
+  --colors-neutral-base: #c1bdb9;
+  --colors-neutral-lighten1: #e7e5e4;
+  --colors-neutral-darken1: #9a9793;
+  --colors-neutral-darken2: #757270;
+  --colors-neutral-darken3: #51504e;
+  --colors-neutral-darken4: #312f2e;
+  --colors-neutral-darken5: #121211;
+  --font-families-heading: Roboto;
+  --font-families-heading-merriweather: Merriweather;
+  --body-font-weights-regular: Regular;
+  --body-font-weights-light: Light;
+  --body-font-weights-medium: Medium;
+  --body-base-20-italic: italic 400 20px/24px Inter;
+  --body-base-regular: 400 16px/24px Inter;
+  --body-base-regular-xs: 400 12px/14px Inter;
+  --body-description-12-darken: 400 12px/14px Inter;
+  --body-description-light: 300 16px/24px Inter;
+  --spacing-3xs: 2px;
+  --spacing-2xs: 4px;
   --spacing-xs: 8px;
   --spacing-s: 12px;
   --spacing-m: 16px;
@@ -27,5 +56,124 @@
   --spacing-4xl: 48px;
   --spacing-5xl: 72px;
   --spacing-6xl: 96px;
-  --border-radius-sm: 4px;
+  --line-heights-0: 0px;
+  --line-heights-1: 24px;
+  --font-size-1: 16px;
+  --font-size-base: 16px;
+  --font-size-heading-lx: 48px;
+  --letter-spacing-0: 0px;
+  --letter-spacing-1: 24px;
+  --paragraph-spacing-0: 0px;
+  --paragraph-spacing-1: 16px;
+  --paragraph-indent-0: 16px;
+  --paragraph-indent-1: 16px;
+  --heading-xl: 700 48px/52px Merriweather;
+  --heading-m: 700 40px/24px Roboto;
+  --heading-l: 700 44px/46px Roboto;
+  --heading-s: 700 36px/32px Merriweather;
+  --heading-xs: 700 32px/34px Merriweather;
+  --heading-2xs: 700 28px/30px Merriweather;
+  --heading-3xs: 700 24px/26px Merriweather;
+  --link-m-medium: 500 16px/24px Inter;
+  --link-m-regular: 400 16px/24px Inter;
+  --link-m-light: 300 16px/24px Inter;
+  --link-dark-secondary-text-default: #e7ddcd; /* Цвет текста ссылки */
+  --link-dark-secondary-text-hover: #e6bf86;
+  --link-dark-secondary-text-visited: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-secondary-text-focus: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-secondary-text-active: #e6bf86; /* Цвет текста ссылки */
+  --link-dark-secondary-text-disable: #4f493f; /* Цвет текста ссылки */
+  --link-dark-secondary-icon-default: #e7ddcd; /* Цвет иконки */
+  --link-dark-secondary-icon-hover: #e6bf86;
+  --link-dark-secondary-icon-visited: #c2b59f; /* Цвет иконки */
+  --link-dark-secondary-icon-focus: #e6bf86; /* Цвет иконки */
+  --link-dark-secondary-icon-active: #e6bf86; /* Цвет иконки */
+  --link-dark-secondary-icon-disable: #4f493f; /* Цвет иконки */
+  --link-dark-secondary-stroke-default: #e7ddcd; /* Цвет иконки */
+  --link-dark-secondary-stroke-hover: #e6bf86;
+  --link-dark-secondary-stroke-visited: #c2b59f; /* Цвет иконки */
+  --link-dark-secondary-stroke-focus: #e6bf86; /* Цвет иконки */
+  --link-dark-secondary-stroke-active: #e6bf86; /* Цвет иконки */
+  --link-dark-secondary-stroke-disable: #4f493f; /* Цвет иконки */
+  --link-dark-tertiary-text-default: #9a8f7d; /* Цвет текста ссылки */
+  --link-dark-tertiary-text-hover: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-tertiary-icon-defult: #9a8f7d; /* Цвет текста ссылки */
+  --link-dark-tertiary-icon-hover: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-tertiary-stroke-default: #9a8f7d; /* Цвет текста ссылки */
+  --link-dark-tertiary-stroke-hover: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-primary-text-default: #d0bb9c; /* Цвет текста ссылки */
+  --link-dark-primary-text-hover: #e7ddcd;
+  --link-dark-primary-text-visited: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-primary-text-focus: #c2b59f; /* Цвет текста ссылки */
+  --link-dark-primary-text-active: #e6bf86; /* Цвет текста ссылки */
+  --link-dark-primary-text-disable: #4f493f; /* Цвет текста ссылки */
+  --link-dark-primary-icon-default: #d0bb9c; /* Цвет иконки */
+  --link-dark-primary-icon-hover: #e7ddcd; /* Цвет иконки */
+  --link-dark-primary-icon-visited: #c2b59f; /* Цвет иконки */
+  --link-dark-primary-icon-focus: #e6bf86; /* Цвет иконки */
+  --link-dark-primary-icon-active: #e6bf86; /* Цвет иконки */
+  --link-dark-primary-icon-disable: #4f493f; /* Цвет иконки */
+  --link-dark-primary-stroke-default: #d0bb9c; /* Цвет иконки */
+  --link-dark-primary-stroke-hover: #e7ddcd; /* Цвет иконки */
+  --text-case-none: none;
+  --text-decoration-none: none;
+  --font-weights-heading-extrabold: ExtraBold;
+  --background-page-dark: #2d2a23;
+  --background-page-light: #e7ddcd;
+  --btn-dark-secondary-text-default: #f7ebde; /* Цвет текста ссылки */
+  --btn-dark-secondary-text-hover: #736b5d; /* Цвет текста ссылки */
+  --btn-dark-secondary-background-default: rgba(0, 0, 0, 0); /* Цвет текста ссылки */
+  --btn-dark-secondary-background-hover: #e7ddcd; /* Цвет текста ссылки */
+  --btn-dark-secondary-icon-default: #f7ebde; /* Цвет иконки */
+  --btn-dark-secondary-icon-hover: #736b5d; /* Цвет иконки */
+  --btn-dark-secondary-stroke-default: #a6957c; /* Border color */
+  --btn-dark-secondary-stroke-hover: #f7ebde; /* Border color */
+  --btn-dark-secondary-color-stroke-default: #c2b59f;
+  --btn-dark-secondary-color-stroke-hover: #e7ddcd;
+  --btn-dark-secondary-color-text-default: #403321;
+  --btn-dark-secondary-color-text-default-copy: #736b5d;
+  --btn-dark-secondary-color-icon-default: #403321;
+  --btn-dark-secondary-color-icon-hover: #736b5d;
+  --btn-dark-secondary-color-background-default: #c2b59f;
+  --btn-dark-secondary-color-background-hover: #e7ddcd;
+  --btn-dark-primary-stroke-default: #d0bb9c;
+  --btn-dark-primary-stroke-hover: #eee4d7;
+  --btn-dark-primary-text-default: #32302d;
+  --btn-dark-primary-text-hover: #584f40;
+  --btn-dark-primary-icon-default: #32302d;
+  --btn-dark-primary-icon-hover: #584f40;
+  --btn-dark-primary-background-default: #d0bb9c;
+  --btn-dark-primary-background-hover: #eee4d7;
+  --btn-clear-text-default: #c2b59f;
+  --btn-clear-text-hover: #e7ddcd;
+  --btn-clear-text-focused: #e7ddcd;
+  --btn-clear-text-disable: #757270;
+  --btn-clear-icon-default: #c2b59f;
+  --btn-clear-icon-hover: #e7ddcd;
+  --btn-clear-icon-focused: #e7ddcd;
+  --btn-clear-icon-disable: #757270;
+  --btn-clear-stroke-default: rgba(0, 0, 0, 0);
+  --btn-clear-stroke-hover: rgba(0, 0, 0, 0);
+  --btn-clear-stroke-focused: #4f493f;
+  --btn-clear-stroke-disable: rgba(0, 0, 0, 0);
+  --btn-clear-background-default: rgba(184, 31, 31, 0);
+  --btn-clear-background-hover: rgba(184, 31, 31, 0);
+  --btn-clear-background-focused: rgba(184, 31, 31, 0);
+  --btn-clear-background-disable: rgba(184, 31, 31, 0);
+  --btn-round: 24px;
+  --text-primary: #d0bb9c; /* Primary text */
+  --text-p-description-light: #eee4d7; /* Primary text */
+  --text-p-description-darken-1: #9a8f7d; /* Primary text */
+  --header-light: #eee4d7; /* Primary text */
+  --header-primary: #d0bb9c; /* Primary text */
+  --header-darken-1: #a6957c; /* Primary text */
+  --stroke-darken-dark: #352f26;
+  --tag-primary-stroke-default: #d0bb9c;
+  --tag-primary-stroke-hover: #eee4d7;
+  --tag-primary-text-default: #d0bb9c;
+  --tag-primary-text-hover: #584f40;
+  --tag-primary-icon-default: #d0bb9c;
+  --tag-primary-icon-hover: #584f40;
+  --tag-primary-background-default: #d0bb9c;
+  --tag-primary-background-hover: #eee4d7;
 }
