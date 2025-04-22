@@ -7,10 +7,10 @@ import { TermList } from './TermList'
 
 const descriptionList = document.getElementById('description-list');
 
-const createD = createRoot(descriptionList);
-createD.render(<TermList />)
-/*createRoot(document.getElementById('root')).render(
+//const createD = createRoot(descriptionList);
+//createD.render(<TermList />)
+createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>,
-)*/
+)

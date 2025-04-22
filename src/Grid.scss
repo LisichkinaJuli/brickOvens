@@ -1,0 +1,14 @@
+@import "./breakpoints";
+.grid{
+    width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    background-color:crimson;
+}
+.grid__item {
+    background-color:crimson;
+    min-height: 100px;
+    border: 1px solid white;
+}
